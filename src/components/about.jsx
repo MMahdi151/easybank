@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <section className="h-screen bg-zinc-100 px-40 flex flex-col gap-24 place-content-center">
+    <section className="py-28 bg-grayblue-200 px-44 flex flex-col gap-24 place-content-center relative z-10">
       <div>
         <h2>Why choose Easybank?</h2>
         <p>

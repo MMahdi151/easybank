@@ -7,11 +7,13 @@ import Footer from "./components/footer";
 function App() {
   return (
     <div className="w-screen">
-      <Nav />
-      <Hero />
-      <About />
-      <Blog />
-      <Footer />
+      <div className="max-w-screen-2xl mx-auto">
+        <Nav />
+        <Hero />
+        <About />
+        <Blog />
+        <Footer />
+      </div>
     </div>
   );
 }

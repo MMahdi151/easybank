@@ -1,6 +1,6 @@
 export default function Nav() {
   return (
-    <nav className="h-24 w-screen flex items-center justify-between bg-white px-40 absolute z-10 top-0 left-0">
+    <nav className="h-24 w-screen max-w-screen-2xl mx-auto flex items-center justify-between bg-white px-44 absolute z-30 top-0">
       <div>
         <img src="images/logo.svg" className="h-6" />
       </div>
@@ -11,7 +11,7 @@ export default function Nav() {
         <li href="#">Blog</li>
         <li href="#">Careers</li>
       </ul>
-      <button className="bg-gradient-to-r from-green-500 to-cyan-500 py-3 px-9 text-white font-semibold rounded-full">
+      <button className="bg-gradient-to-r from-limegreen to-cyandef py-3 px-9 text-white font-semibold rounded-full">
         Request Invite
       </button>
     </nav>

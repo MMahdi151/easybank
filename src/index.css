@@ -3,19 +3,27 @@
 @tailwind utilities;
 @layer base {
   body {
-    @apply text-lg font-sans;
+    @apply font-sans text-lg;
+  }
+  p,
+  span,
+  li:not(ul div li) {
+    @apply text-grayblue-300;
   }
   .cart {
-    @apply flex flex-col gap-4 w-1/4 rounded-lg overflow-clip;
+    @apply flex flex-col gap-4 w-1/4 rounded-lg overflow-clip bg-white;
   }
   .cart-det {
-    @apply flex flex-col gap-3 p-6;
+    @apply flex flex-col gap-2 p-6;
   }
   .cart-det span {
-    @apply block text-sm;
+    @apply block text-xs mb-1;
   }
   .cart-det p {
     @apply line-clamp-4;
+  }
+  .social img {
+    @apply w-6 h-6;
   }
   h4 {
     @apply text-xl;
