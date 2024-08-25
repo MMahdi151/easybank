@@ -1,15 +1,14 @@
 export default function Hero() {
   return (
-    <section className="h-screen lg:px-44 flex flex-col-reverse lg:flex-row bg-grayblue-100 relative overflow-x-clip">
-      <div className="flex flex-col gap-12 place-content-center lg:w-2/5">
-        <h1 className="text-4xl lg:text-6xl">
+    <section className="h-screen flex flex-col-reverse lg:flex-row  max-w-6xl">
+      <div className="flex flex-col gap-12 place-content-center lg:w-1/2 h-1/2 lg:h-full">
+        <h1 className="text-4xl lg:text-7xl">
           Next generation digital banking
         </h1>
         <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis
-          possimus corrupti dignissimos fuga nisi sequi laudantium quae magni
-          quod, dicta blanditiis consectetur, ab nesciunt, at nostrum voluptatum
-          fugit numquam porro!
+          Take your financial life online. Your Easybank account will be a
+          one-stop-shop for spending, saving, budgeting, investing, and much
+          more.
         </p>
         <div>
           <button className="bg-gradient-to-r from-limegreen to-cyandef py-3 px-9 text-white font-semibold rounded-full">
@@ -17,16 +16,26 @@ export default function Hero() {
           </button>
         </div>
       </div>
-      <div className="lg:w-1/2 relative lg:absolute top-0 right-0 lg:scale-125 z-0">
+      <div className="relative bottom-0 w-full lg:w-1/2 h-1/2 lg:h-full">
         <img
           src="/images/bg-intro-desktop.svg"
-          className="-top-16 -right-20 scale-150 relative lg:top-14 lg:-right-32"
+          className="min-w-[240%] -translate-x-[14%] lg:-translate-x-14 absolute -bottom-16 lg:min-w-[260%] lg:-bottom-28"
         />
         <img
           src="/images/image-mockups.png"
-          className="absolute lg:top-0 lg:-right-16 scale-95 z-20"
+          className="absolute bottom-0 lg:min-w-[160%] md:right-6 lg:left-28 lg:-top-6 z-20"
         />
       </div>
+      {/* <div className="lg:w-1/2 top-0 lg:relative max-h-1/2">
+        <img
+          src="/images/bg-intro-desktop.svg"
+          className="min-w-[200%] lg:min-w-[244%] -mt-40 lg:-mt-[32%] -ml-36 -ml-1/2"
+        />
+        <img
+          src="/images/image-mockups.png"
+          className="min-w-[] lg:min-w-[150%] absolute -top-12 left-[20%] z-20"
+        />
+      </div> */}
     </section>
   );
 }
