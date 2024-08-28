@@ -1,11 +1,11 @@
 export default function Blog() {
   return (
-    <section className="py-24 px-44 flex flex-col gap-8 bg-grayblue-100 place-content-center">
-      <h2>Lastest Articles</h2>
-      <div className="flex gap-8 text-sm">
+    <section className="max-w-screen-xl flex flex-col gap-8 py-24 px-6 lg:p-0 bg-grayblue-100 place-content-center">
+      <h2 className="text-center lg:text-left">Lastest Articles</h2>
+      <div className="flex flex-col gap-8 text-sm lg:flex-row">
         <div className="cart">
           <div className="h-48 overflow-hidden">
-            <img src="/images/image-currency.jpg" className="h-full" />
+            <img src="/images/image-currency.jpg" className="w-full h-auto" />
           </div>
           <div className="cart-det">
             <span>By Claire Robinson</span>
@@ -20,7 +20,7 @@ export default function Blog() {
         </div>
         <div className="cart">
           <div className="h-48 overflow-hidden">
-            <img src="/images/image-restaurant.jpg" className="h-full" />
+            <img src="/images/image-restaurant.jpg" className="w-full h-auto" />
           </div>
           <div className="cart-det">
             <span>By Wilson Hutton</span>
@@ -35,7 +35,7 @@ export default function Blog() {
         </div>
         <div className="cart">
           <div className="h-48 overflow-hidden">
-            <img src="/images/image-plane.jpg" className="h-full" />
+            <img src="/images/image-plane.jpg" className="w-full h-auto" />
           </div>
           <div className="cart-det">
             <span>By Wilson Hutton</span>
@@ -50,7 +50,7 @@ export default function Blog() {
         </div>
         <div className="cart">
           <div className="h-48 overflow-hidden">
-            <img src="/images/image-confetti.jpg" className="h-full" />
+            <img src="/images/image-confetti.jpg" className="w-full h-auto" />
           </div>
           <div className="cart-det">
             <span> By Claire Robinson</span>
