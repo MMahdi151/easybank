@@ -1,6 +1,6 @@
 export default function Blog() {
   return (
-    <section className="max-w-screen-xl flex flex-col gap-8 py-24 px-6 lg:p-0 bg-grayblue-100 place-content-center">
+    <section className="max-w-7xl flex flex-col gap-2 py-28 px-6 lg:px-0 bg-grayblue-100 place-content-center">
       <h2 className="text-center lg:text-left">Lastest Articles</h2>
       <div className="flex flex-col gap-8 text-sm lg:flex-row">
         <div className="cart">

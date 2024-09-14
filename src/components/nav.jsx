@@ -1,6 +1,10 @@
 export default function Nav(props) {
   return (
-    <nav className="h-20 lg:h-24 w-screen max-w-screen-2xl px-6 mx-auto flex items-center justify-between bg-white absolute z-30 top-0">
+    <nav
+      className={`h-20 lg:h-24 w-full px-[8%] mx-auto flex items-center justify-between bg-white ${
+        props.mobileStatue ? "fixed" : "absolute"
+      } z-30 top-0`}
+    >
       <div>
         <img src="images/logo.svg" className="h-6" />
       </div>

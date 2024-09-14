@@ -20,7 +20,7 @@ function App() {
           />,
           document.body
         )}
-      <div className="w-screen flex flex-col items-center overflow-x-hidden">
+      <div className="w-screen flex flex-col items-center relative mx-auto overflow-x-hidden max-w-screen-2xl">
         <Nav setMobileStatue={setMobileStatue} mobileStatue={mobileStatue} />
         <Hero />
         <About />

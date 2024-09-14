@@ -3,15 +3,18 @@
 @tailwind utilities;
 @layer base {
   body {
-    @apply font-sans text-lg;
+    @apply font-sans text-lg bg-grayblue-100;
   }
   p,
   span,
-  li:not(ul div li) {
+  li {
     @apply text-grayblue-300;
   }
+  footer div ul li {
+    @apply text-grayblue-200;
+  }
   .cart {
-    @apply flex flex-col gap-4 w-1/4 rounded-lg overflow-clip bg-white;
+    @apply flex flex-col gap-4 lg:w-1/4 rounded-lg overflow-clip bg-white;
   }
   .cart-det {
     @apply flex flex-col gap-2 p-6;
@@ -25,6 +28,9 @@
   .social img {
     @apply w-6 h-6;
   }
+  .mobileList li {
+    @apply text-darkblue;
+  }
   h4 {
     @apply text-xl;
   }
@@ -32,6 +38,6 @@
     @apply text-2xl;
   }
   h2 {
-    @apply text-5xl mb-8;
+    @apply text-4xl mb-8;
   }
 }
